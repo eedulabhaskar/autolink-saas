@@ -7,7 +7,7 @@ import express from 'express';
 import mongoose from 'mongoose';
 import multer from 'multer';
 import { v2 as cloudinary } from 'cloudinary';
-import { GoogleGenAI, Type } from "@google/genai";
+import { GoogleGenAI, Type } from "@google/generative-ai";
 import fs from 'fs';
 
 const app = express();
