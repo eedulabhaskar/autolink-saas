@@ -17,7 +17,7 @@ app.use(express.json() as any);
 // Environment Variables
 const MAKE_API_KEY = process.env.MAKE_API_KEY;
 const MAKE_SCENARIO_ID = process.env.MAKE_SCENARIO_ID; // The specific scenario for posting
-const ai = new GoogleGenAI({ apiKey: process.env.API_KEY });
+const ai = new GoogleGenerativeAI({ apiKey: process.env.API_KEY });
 
 cloudinary.config({ 
   cloud_name: process.env.CLOUDINARY_NAME, 
